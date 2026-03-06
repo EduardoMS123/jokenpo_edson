@@ -1,0 +1,46 @@
+*{
+    justify-items: center;
+    font-family: "Special Elite", system-ui;
+    font-size: larger;
+}
+
+.special-elite-regular {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.jogar{
+    border-radius: 3px;
+    font-size: larger;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+}
+
+.resetar{
+    border-radius: 3px;
+    font-size: larger;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s ease;
+}
+
+#pc{
+    display: flex;
+    justify-content: center;
+}
+
+.jogar:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.resetar:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
